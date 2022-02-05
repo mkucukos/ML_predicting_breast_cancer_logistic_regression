@@ -1,9 +1,17 @@
-# ML_regression_model_selection
+# Using Python and Logistic Regression (Binary Class Classification), predict whether cancer is benign or malignant.
 
-This script shows the results of various regression models that were used to predict energy output using variables such as engine temperature, exhaust vacuum, pressure, and relative humidity. The data was divided into two sets: training and testing, with feature scaling (SVR) applied to both sets. The best model for estimating energy output was found to be Random Forest Regression. 
+Dataset Used: Breast Cancer Wisconsin (Diagnostic) Dataset
 
+Accuracy of a confusion matrix :0.956
+
+k-Fold Cross Validation Results:
+
+Accuracy: 96.89 %
+Standard Deviation: 1.85 %
 ## Install Requirements
 
 ```bash
 $ pip install -r requirement.txt
 ```
+![model's output](./figure1.png)
+![model's output](./figure2.png)
